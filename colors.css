@@ -1,10 +1,13 @@
 :root {
     --primary-color: #1e90ff;
     --secondary-color: #00bfff;
-    --accent-color: #ff69b4; /* Valor adicionado como exemplo */
+    --accent-color: #ff69b4; /* Exemplo de cor de destaque */
     --background-color: #000000;
     --text-color: #fbffff;
     --header-footer-bg: #282828;
     --button-bg: #1e90ff;
     --button-hover-bg: #1e90ff;
+    --card-bg: #ffffff;
+    --card-border: #dddddd;
+    --input-border: #cccccc;
 }
