@@ -8,3 +8,12 @@
     --button-bg: #1e90ff;
     --button-hover-bg: #1e90ff;
 }
+
+#footer {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: var(--text-color); /* Usa a cor do texto definida no :root */
+    padding: 20px; /* Exemplo de espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    border-top-left-radius: 5px; /* Exemplo de arredondamento dos cantos */
+    border-top-right-radius: 5px; /* Exemplo de arredondamento dos cantos */
+}
