@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #1e90ff; /* Azul primário */
-    --secondary-color: #00bfff; /* Azul claro */
+    --primary-color: #1e90ff;
+    --secondary-color: #00bfff;
     --accent-color:
-    --background-color: #121212; /* Preto suave */
-    --text-color: #b3b3b3; /* Cinza claro */
-    --header-footer-bg: #282828; /* Cinza escuro */
-    --button-bg: #1e90ff; /* Azul primário */
-    --button-hover-bg: #1e90ff; /* Azul claro
+    --background-color: #121212;
+    --text-color: #fbffff;
+    --header-footer-bg: #282828;
+    --button-bg: #1e90ff;
+    --button-hover-bg: #1e90ff;
