@@ -105,15 +105,49 @@ h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-.music-card img, .artist-card img {
-    max-width: 100px;
-    margin-right: 1em;
-    border-radius: 5px;
+/* Adicione no seu arquivo styles.css */
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
 }
 
-.music-info, .artist-info {
-    flex: 1;
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
+
+.carousel-slide {
+    display: flex;
+}
+
+.artist-card {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
 
 /* Estilos para formulários */
 form {
