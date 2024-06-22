@@ -44,14 +44,6 @@ header h1 {
     overflow: hidden;
 }
 
-#search-form button {
-    padding: 0.5em 1em;
-    border: none;
-    background-color: var(--primary-color);
-    color: #fff;
-    cursor: pointer;
-}
-
 nav {
     background-color: var(--header-footer-bg);
     padding: 1em 0;
