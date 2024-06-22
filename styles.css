@@ -42,7 +42,10 @@ header h1 {
     align-items: center;
     border-radius: 5px;
     overflow: hidden;
+    background-color: transparent; /* Torna o fundo transparente */
+    color: inherit; /* Herda a cor do texto do elemento pai */
 }
+
 
 nav {
     background-color: var(--header-footer-bg);
