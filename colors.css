@@ -1,9 +1,10 @@
 :root {
     --primary-color: #1e90ff;
     --secondary-color: #00bfff;
-    --accent-color:
+    --accent-color: #ff69b4; /* Valor adicionado como exemplo */
     --background-color: #000000;
     --text-color: #fbffff;
     --header-footer-bg: #282828;
     --button-bg: #1e90ff;
     --button-hover-bg: #1e90ff;
+}
