@@ -40,7 +40,6 @@ header h1 {
 #search-form {
     display: flex;
     align-items: center;
-    background-color: #fff;
     border-radius: 5px;
     overflow: hidden;
 }
