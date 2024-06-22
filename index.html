@@ -11,7 +11,13 @@
         <h1>MusicTools</h1>
         <nav>
             <ul>
-                <li><a href="#search">Pesquise sua música favorita</a></li>
+                <li>
+                    <a href="#search">Pesquise sua música favorita</a>
+                    <form id="search-form" action="#search" method="get">
+                        <input type="text" id="search-input" name="q" placeholder="Digite o nome da música" required>
+                        <button type="submit">Pesquisar</button>
+                    </form>
+                </li>
                 <li><a href="#home">Início</a></li>
                 <li><a href="#playlist">Playlist</a></li>
                 <li><a href="#artistas">Artistas</a></li>
