@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #4a90e2; /* Azul suave */
+    --secondary-color: #50e3c2; /* Verde suave */
+    --accent-color: #f5a623; /* Laranja suave */
+    --background-color: #f4f7f9; /* Cinza claro */
+    --text-color: #333; /* Cinza escuro */
+    --header-footer-bg: #34495e; /* Azul escuro */
+    --button-bg: #4a90e2; /* Azul suave */
+    --button-hover-bg: #357ab8; /* Azul mais escuro */
+    --input-border: #ccd1d9; /* Cinza claro */
+    --card-bg: #fff; /* Branco */
+    --card-border: #dce1e8; /* Cinza muito claro */
+}
