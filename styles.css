@@ -45,13 +45,6 @@ header h1 {
     overflow: hidden;
 }
 
-#search-input {
-    border: none;
-    padding: 0.5em;
-    width: 200px;
-    outline: none;
-}
-
 #search-form button {
     padding: 0.5em 1em;
     border: none;
