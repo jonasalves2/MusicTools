@@ -52,34 +52,28 @@ header h1 {
 }
 
 /* Estilos para a navegação */
-nav {
-    background-color: var(--header-footer-bg);
-    padding: 1em 0;
-    max-width: 1000px;
-    margin-top: 3em;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 1em;
-}
-
-nav ul li a {
+nav button {
+    padding: 0.5em 1em;
+    background-color: var(--button-bg);
     color: #fff;
-    text-decoration: none;
-    transition: color 0.3s, transform 0.3s;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none; /* Remove o sublinhado padrão */
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-nav ul li a:hover {
-    color: var(--accent-color);
+nav button:hover {
+    background-color: var(--button-hover-bg);
     transform: scale(1.1);
-    text-decoration: underline;
 }
+
+nav button a {
+    color: inherit; /* Herda a cor do texto do elemento pai */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
 
 /* Estilos para a seção principal */
 main {
