@@ -1,4 +1,3 @@
-// scripts.js
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
     form.addEventListener('submit', (event) => {
@@ -6,20 +5,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const nome = document.getElementById('nome').value;
         const email = document.getElementById('email').value;
         const mensagem = document.getElementById('mensagem').value;
-        
-        alert(`Obrigado, ${nome}! Sua mensagem foi enviada.`);
-        
-        // Você pode adicionar lógica para enviar os dados para um servidor aqui
-        form.reset();
-        // Adicione no seu arquivo scripts.js
 
-document.addEventListener('DOMContentLoaded', function() {
+        alert(`Obrigado, ${nome}! Sua mensagem foi enviada.`);
+        form.reset();
+    });
+
     const prevBtn = document.querySelector('.prev-btn');
     const nextBtn = document.querySelector('.next-btn');
     const carouselContainer = document.querySelector('.carousel-container');
-    const carouselSlide = document.querySelector('.carousel-slide');
     const artistCards = document.querySelectorAll('.artist-card');
-    
+
     let currentIndex = 0;
     const totalCards = artistCards.length;
 
