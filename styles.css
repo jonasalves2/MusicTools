@@ -49,6 +49,7 @@ header h1 {
     overflow: hidden;
     background-color: var(--secondary-color);
     color: inherit;
+}
 
 /* Estilos para a navegação */
 nav button {
@@ -72,7 +73,6 @@ nav button a {
     color: inherit; /* Herda a cor do texto do elemento pai */
     text-decoration: none; /* Remove o sublinhado padrão */
 }
-
 
 /* Estilos para a seção principal */
 main {
@@ -105,8 +105,7 @@ h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-/* Adicione no seu arquivo styles.css */
-
+/* Estilos para o carrossel */
 .carousel {
     position: relative;
     width: 100%;
@@ -147,7 +146,6 @@ h2 {
 .next-btn {
     right: 10px;
 }
-
 
 /* Estilos para formulários */
 form {
