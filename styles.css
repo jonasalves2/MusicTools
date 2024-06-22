@@ -45,11 +45,10 @@ header h1 {
 #search-form {
     display: flex;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 20px;
     overflow: hidden;
-    background-color: transparent; /* Torna o fundo transparente */
-    color: inherit; /* Herda a cor do texto do elemento pai */
-}
+    background-color: var(--secondary-color);
+    color: inherit;
 
 /* Estilos para a navegação */
 nav button {
