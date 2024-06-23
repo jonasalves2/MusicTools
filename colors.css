@@ -1,13 +1,13 @@
 :root {
-    --primary-color: #1e90ff;
-    --secondary-color: #00bfff;
-    --accent-color: #ff69b4; /* Exemplo de cor de destaque */
-    --background-color: #000000;
-    --text-color: #fbffff;
-    --header-footer-bg: #282828;
-    --button-bg: #1e90ff;
-    --button-hover-bg: #1e90ff;
-    --card-bg: #ffffff;
-    --card-border: #dddddd;
-    --input-border: #cccccc;
+    --primary-color: #007acc; /* Azul primário */
+    --secondary-color: #ff7f00; /* Laranja secundário */
+    --accent-color: #ff69b4; /* Cor de destaque (mantida a mesma) */
+    --background-color: #000000; /* Cor de fundo */
+    --text-color: #fbffff; /* Cor do texto */
+    --header-footer-bg: #282828; /* Cor de fundo para cabeçalho e rodapé */
+    --button-bg: #007acc; /* Cor de fundo do botão */
+    --button-hover-bg: #005d7a; /* Cor de fundo do botão ao passar o mouse */
+    --card-bg: #ffffff; /* Cor de fundo do cartão */
+    --card-border: #dddddd; /* Cor da borda do cartão */
+    --input-border: #cccccc; /* Cor da borda da entrada de texto */
 }
