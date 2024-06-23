@@ -19,8 +19,8 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 8px;
-    height: 8px;
+    width: 100%;
+    height: auto;
     background-color: var(--primary-color);
     color: #fff;
     padding: 1em 0;
@@ -79,7 +79,7 @@ nav button a {
 main {
     padding: 2em 1em;
     max-width: 1200px;
-    margin: 5em auto 2em;
+    margin: 6em auto 2em;
     background-color: var(--background-color);
 }
 
